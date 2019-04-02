@@ -15,6 +15,12 @@ client.on('guildMemberAdd', member => {
   channel.send(`We’ll create our own Discord Server with blackjack and hookers, ${member}`);
 });
 
+bot.on('guildMemberAdd', member => {
+  console.log('User' + member.user.tag + 'has joined the server!');
+
+  var role = member.guild.roles.find('name', 'user');
+  member.addRole(Gambler);
+    
 client.on('message', message => {
     if (message.content === 'Hello Dealer') {
     	message.reply('What the fuck did you just fucking say about me, you little bitch?');
