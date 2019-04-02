@@ -1,6 +1,6 @@
 {
-  "name": "DefinitelyNotBot",
-  "description": "A Discord bot coded in Discord.JS, hosted using Heroku.",
+  "name": "Dealer",
+  "description": "Dealer2.0.",
   "version": "1.0.0",
   "main": "bot.js",
   "scripts": {
