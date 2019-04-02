@@ -15,8 +15,8 @@ client.on('guildMemberAdd', member => {
   channel.send(`We’ll create our own Discord Server with blackjack and hookers, ${member}`);
 });
 
-  var role = member.guild.roles.find('name', 'user');
-  member.addRole(Gambler);
+  var role = member.guild.roles.find('name', 'Gambler');
+  member.addRole(role);
     
 client.on('message', message => {
     if (message.content === 'Hello Dealer') {
