@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.channel.send('PONG!');
+    if (message.content === 'Nigga') {
+    	message.channel.send('What the fuck did you just fucking say about me, you little bitch?');
   	}
 });
 
