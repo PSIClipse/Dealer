@@ -5,8 +5,6 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-var role = member.guild.roles.find('name', 'Gambler');
-  member.addRole(role);
     
 // Create an event listener for new guild members
 client.on('guildMemberAdd', member => {
