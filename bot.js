@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'Hello Dealer') {
-    	message.channel.send('What the fuck did you just fucking say about me, you little bitch?');
+    	message.reply('What the fuck did you just fucking say about me, you little bitch?');
   	}
 });
 
