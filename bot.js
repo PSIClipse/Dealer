@@ -5,8 +5,7 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-    
-// Create an event listener for new guild members
+    // Create an event listener for new guild members
 client.on('guildMemberAdd', member => {
   // Send the message to a designated channel on a server:
   const channel = member.guild.channels.find(ch => ch.name === 'guest_list');
