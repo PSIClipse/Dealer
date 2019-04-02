@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const client = new Discord.Client();
+const client = new Discord.Client();1NoUvfGwWMkz7VdnirTfsdgEwhEUMXMA
 
 client.on('ready', () => {
     console.log('I am ready!');
@@ -18,4 +18,4 @@ client.on('message', message => {
 });
 
 // THIS  MUST  BE  THIS  WAY
-client.login(process.env.BOT_TOKEN);
+client.login(process.env.BOT_TOKEN);NTYyNTQzMzMyNzg2NDM4MTU5.XKMThQ.E5Q86x6PW9Yuv5ZNFYebKJoYgfY
