@@ -32,7 +32,7 @@ client.on('message', message => {
     // If the message is 'Tyger'
     if (message.content === 'tyger') {
         // Create the attachment using Attachment
-        const attachment = new Attachment('https://imgur.com/gallery/knMXj');
+        const attachment = new Attachment('https://i.imgur.com/w3duR07.png');
         message.reply('Here is a lovely photo of Tyger');
         // Send the attachment in the message channel with a content
         message.channel.send(`${message.author},`, attachment);
