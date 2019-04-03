@@ -29,10 +29,11 @@ client.on('message', message => {
 
 
 client.on('message', message => {
-    // If the message is '!rip'
-    if (message.content === 'Tyger') {
+    // If the message is 'Tyger'
+    if (message.content === 'tyger') {
         // Create the attachment using Attachment
         const attachment = new Attachment('https://i2-prod.mirror.co.uk/incoming/article13841727.ece/ALTERNATES/s1200b/0_Downs-Syndrome-white-tiger-bred-through-incest-in-cruel-bid-to-make-money.jpg');
+        message.reply('Here is a lovely photo of Tyger');
         // Send the attachment in the message channel with a content
         message.channel.send(`${message.author},`, attachment);
     }
