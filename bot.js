@@ -30,7 +30,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'clip') {
-    	message.channel.send('jdplay https://www.youtube.com/watch?v=EDr_krEQNrU&list=PL1qbU9E01marbo3zTcHp29aYCgZh8S0zB');
+    	message.channel.send(' jdplay  https://www.youtube.com/watch?v=EDr_krEQNrU&list=PL1qbU9E01marbo3zTcHp29aYCgZh8S0zB');
     }
 });
     client.on('message', message => {
