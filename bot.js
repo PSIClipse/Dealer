@@ -29,21 +29,10 @@ client.on('message', message => {
 
 
 client.on('message', message => {
-    // If the message is 'Tyger'
-    if (message.content === 'tyger') {
-        // Create the attachment using Attachment
-        const attachment = new Attachment('https://i.imgur.com/w3duR07.png');
-        message.reply('Here is a lovely photo of Tyger');
-        // Send the attachment in the message channel with a content
-        message.channel.send(`${message.author},`, attachment);
-    }
-});
-
-client.on('message', message => {
     if (message.content === 'clip') {
     	message.channel.send('jdplay https://www.youtube.com/watch?v=EDr_krEQNrU&list=PL1qbU9E01marbo3zTcHp29aYCgZh8S0zB');
-}
-
+    }
+});
     client.on('message', message => {
     // If the message is '!rip'
     if (message.content === '!rip') {
