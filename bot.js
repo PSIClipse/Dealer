@@ -29,7 +29,7 @@ client.on('message', message => {
 
 bot.on('message' message => {
     if (message.content === '100 foreplay events') {
-    message.channel.send("My Bot's message", {files: ["https://i.imgur.com/XxxXxXX.jpg"]});
+    message.channel.send("My Bot's message", {files: ["https://cdn.discordapp.com/attachments/521195716006117376/629474123797626894/0.png"]});
 });
 
 
