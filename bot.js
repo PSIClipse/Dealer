@@ -5,15 +5,6 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-    // Create an event listener for new guild members
-client.on('guildMemberAdd', member => {
-  // Send the message to a designated channel on a server:
-  const channel = member.guild.channels.find(ch => ch.name === 'guest_list');
-  // Do nothing if the channel wasn't found on this server
-  if (!channel) return;
-  // Send the message, mentioning the member
-  channel.send(`We’ll create our own Discord Server with blackjack and hookers, ${member}`);
-});
  
 client.on('message', message => {
     if (message.content === 'Hello Dealer') {
@@ -41,6 +32,12 @@ client.on('message', message => {
         // Send the attachment in the message channel
         message.channel.send(attachment);
     }
+});
+
+client.on('message', message => {
+    if (message.content === '100 foreplay events') {
+    	message.reply('https://discord.gg/CjH6dby');
+  	}
 });
 
 
