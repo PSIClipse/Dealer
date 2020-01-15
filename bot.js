@@ -18,6 +18,11 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'long') {
+    	message.reply('https://cdn.discordapp.com/attachments/562571259725086720/661879099702247424/Casinoweeno.jpg');
+  	}
+});
 
 
 
